@@ -1,43 +1,32 @@
 # Flask-Docker-Deploy
-# Flask-Diyabet-Tahminci 📊🩺
+# Flask Diabetes Predictor 📊🩺
 
-"Flask-Diyabet-Tahminci", Flask tabanlı bir uygulamayı içerir ve kullanıcıların sağlık verilerini kullanarak diyabet tahmini yapmalarına yardımcı olur.
+"Flask Diabetes Predictor" includes a Flask-based application that enables users to make diabetes predictions using health data.
 
-![Diyabet Tahmin](link_to_image.png)
+![Diabetes Prediction]([link_to_image.png](https://st2.depositphotos.com/3369547/46696/v/450/depositphotos_466962456-stock-illustration-diabetes-meter-test.jpg))
 
-## Proje Açıklaması 📋
+## Project Description 📋
 
-Bu proje, Flask tabanlı bir API kullanarak, kullanıcıların sağlık özelliklerini girdiklerinde diyabet riskini tahmin eden bir uygulamayı içerir. Docker ile konteynerleştirilmiş bu uygulama, kolayca dağıtılabilecek ve kullanılabilecek şekilde hazırlanmıştır.
+This project contains a Flask-based application that predicts diabetes risks based on users' health attributes using a Flask-based API. This application is containerized using Docker, allowing easy distribution and use.
 
-## Özellikler 🌟
+## Features 🌟
 
-- Flask tabanlı bir API kullanılarak tasarlanmıştır.
-- Kullanıcı dostu bir arayüz ile sağlık verileri girilebilir.
-- Docker ile konteynerleştirilmiş, hızlı ve kolay dağıtım sağlar.
-- Veri setine dayalı olarak tahmin sonuçları gösterilir.
+- Designed using a Flask-based API.
+- User-friendly interface for inputting health data.
+- Containerized using Docker for quick and easy deployment.
+- Displays prediction outcomes based on the dataset.
 
-## Nasıl Kullanılır? 🚀
+## How to Use? 🚀
 
-1. Proje dosyalarınızı indirin veya klonlayın.
-2. Docker kurulu ise, terminalde `docker-compose up` komutunu çalıştırın.
-3. Tarayıcınızda `http://localhost:5000` adresine gidin.
-4. Sağlık verilerinizi girin ve "Tahmin Et" düğmesine tıklayın.
-5. Tahmin sonuçlarını görüntüleyin.
+1. Download or clone project files.
+2. If Docker is installed, run the command `docker build -t flask-api-image` in the terminal.
+3. Then, run the command `docker run -p 5000:5000 flask-api-image`.
+4. Visit `http://localhost:5000` in your browser.
+5. Input health data and click the "Predict" button.
+6. View prediction outcomes.
 
-## Katkılar ve Geliştirmeler 💡
+## License ⚖️
 
-Eğer projeye katkıda bulunmak isterseniz:
-
-1. Fork yapın.
-2. Yeni bir dal oluşturun: `git checkout -b yeni-ozellik`
-3. Değişikliklerinizi yapın ve `git commit -am 'Yeni özellik eklendi'` ile kaydedin.
-4. Dalınızı ana depoya göndermek için `git push origin yeni-ozellik`
-5. Bir Pull İsteği oluşturun.
-
-## Lisans ⚖️
-
-Bu proje [MIT Lisansı](LICENSE) altında lisanslanmıştır.
+This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-Projeyle ilgili daha fazla bilgi için [Dokümantasyon](docs/) bölümünü ziyaret edebilirsiniz.
