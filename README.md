@@ -1,9 +1,8 @@
-# Flask-Docker-Deploy
-# Flask Diabetes Predictor 📊🩺
+# Flask-Docker-Deploy📊🩺
 
 "Flask Diabetes Predictor" includes a Flask-based application that enables users to make diabetes predictions using health data.
 
-![Diabetes Prediction]([link_to_image.png](https://st2.depositphotos.com/3369547/46696/v/450/depositphotos_466962456-stock-illustration-diabetes-meter-test.jpg))
+![Diabetes Prediction](https://st2.depositphotos.com/3369547/46696/v/450/depositphotos_466962456-stock-illustration-diabetes-meter-test.jpg)
 
 ## Project Description 📋
 
